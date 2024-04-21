@@ -15,7 +15,7 @@
 .DS_Store
 .prettierignore
 /design
-/assets/fonts/static
+Figtree-SemiBold.ttf
 Figtree-Italic-VariableFont_wght.ttf
 *.txt
 README-template.md
