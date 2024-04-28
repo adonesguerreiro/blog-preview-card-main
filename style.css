@@ -6,7 +6,6 @@
 body {
 	background-color: hsl(47, 88%, 63%);
 	font-family: figtree;
-	font-size: 16px;
 }
 
 @font-face {
@@ -31,6 +30,7 @@ main {
 	justify-content: center;
 	width: 384px;
 	height: 522px;
+	font-size: 15px;
 	border-radius: 20px;
 	border-top: 1px solid hsl(0, 0%, 7%);
 	border-left: 1px solid hsl(0, 0%, 7%);
@@ -38,8 +38,7 @@ main {
 	background-color: hsl(0, 0%, 100%);
 
 	figure img {
-		margin-top: 30px;
-		margin-bottom: auto;
+		margin-top: 20px;
 		border-radius: 10px;
 	}
 }
@@ -47,7 +46,7 @@ main {
 .content {
 	display: grid;
 	width: 336px;
-	height: 194px;
+	height: 200px;
 	h1:hover {
 		color: hsl(47, 88%, 63%);
 		cursor: url("/assets/svg/handcursor.svg"), auto;
@@ -75,20 +74,20 @@ main {
 	width: 150px;
 	height: 32px;
 	img {
-		width: 32px;
+		width: 30px;
 	}
 	p {
 		font-family: figtree-extrabold;
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 377px) and (max-width: 786px) {
 	#blog-preview-card {
 		display: grid;
 		place-items: center;
 		width: 327px;
 		height: 501px;
-
+		font-size: 14px;
 		figure img {
 			width: 279px;
 		}
@@ -96,11 +95,6 @@ main {
 
 	.content {
 		width: 279px;
-		height: 173px;
-	}
-
-	#description {
-		font-size: 14px;
 	}
 
 	.image-avatar {
